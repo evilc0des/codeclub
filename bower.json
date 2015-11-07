@@ -1,0 +1,27 @@
+{
+  "name": "codeclub",
+  "version": "0.0.0",
+  "homepage": "codeclub.tk",
+  "authors": [
+    "evilc0des <evilcodesinc@gmail.com>"
+  ],
+  "description": "Website dependencies for codeclub",
+  "main": "js/index.js",
+  "moduleType": [],
+  "keywords": [
+    "codeClub",
+    "codeClub",
+    "Website"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
