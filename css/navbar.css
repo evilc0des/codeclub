@@ -3,13 +3,10 @@
 
 #site-logo{
 
-width:100%;
-height:auto;
 
 }
 
-.navbar
+header
 {
-   height:100px;
    text-align:center;
 }

@@ -11,6 +11,7 @@
 <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 <link href="css/material.css" rel="stylesheet">
 <link href="css/navbar.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
 <link rel="shortcut icon" type="image/ico" href="assets/favicon.ico">
 
 <!--Javascript Section-->
@@ -25,19 +26,24 @@
 </head>
 
 <body>
-<div class="navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-    <div class="navbar-header col-sm-4">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img id="site-logo" src="assets/website logo.png" alt="codeClub"></a>
-    </div>
-   
-    </div>
-   </div>
+<header>
+<img id = "site-logo" src="assets/website logo.png"/>
+</header>
+<div class="content">
+<form class="login-form">
+<span class="Label">Username:</span><br>
+  <input class="login-field" type="text" name="firstname" value="">
+  <br>
+ <span class="Label">Password:</span><br>
+  <input class="login-field" type="password" name="lastname" value="">
+  <br><br>
+  <input type="checkbox" name="remember">Remember Me
+  <input class="login-submit" type="submit" value="Sign In">
+</form>
+<p class="signup-dialog">Not a member? <a href="#">Sign Up</a></p>
+</div>
+<footer>
+&copy;CodeClub 2015-Till Date. All rights reserved.
+</footer>
 </body>
 </html>

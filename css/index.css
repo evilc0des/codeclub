@@ -1,0 +1,62 @@
+/* CSS Document */
+
+.content
+{
+	height: 450px;
+	background-color:#C55142;
+	text-align:center;
+}
+
+.login-form
+{
+	padding-top: 50px;
+	color:white;
+}
+
+.login-field
+{
+	border-radius: 4px;
+	width: 24%;
+	height:35px;
+	border:6;
+	border-color:#FFD708;
+	margin-bottom: 10px;
+	color:black;
+}
+
+.Label
+{
+	position:relative;
+	right:9%;
+	
+}
+
+.login-submit
+{
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 35px;
+	width: 100px;
+	background-color:#FFD708;
+	color:black;
+}
+
+.signup-dialog
+{
+	margin-top:20px;
+	color:#FFFFFF;
+}
+
+.signup-dialog a
+{
+	color:#FFD708;
+}
+
+footer
+{
+	color:white;
+	height: 100px;
+	text-align: center;
+	background-color:#333333;
+}
