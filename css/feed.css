@@ -5,9 +5,90 @@
 	
 }
 
-img#site-logo
+#site-logo
 {
-	width:50px;
+	position:relative;
+	left:-20px;
 	
 }
 
+#head-tool
+{
+	width:40px;
+}
+
+.header-div
+{
+	display:inline-block;
+}
+
+.lefthead
+{
+	width:40%
+}
+.midhead
+{
+	width:10%;
+}
+
+.righthead
+{
+	width:40%;
+	text-align:right;
+}
+
+.top-search
+{
+	display:inline-table;
+	position:relative;
+	left: -40px;
+	top: 10px;
+	width:40%;
+}
+
+.dp
+{
+	width:40px;
+	position:relative;
+	border: white;
+	border-width:thick;
+	border-radius:4px;
+	margin-right:20px;
+	top: -5px;
+	
+}
+
+.dn
+{
+	position:relative;
+	top: -3px;
+	color: white;
+	padding-top:15px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:15px;
+	font-size: 15px;
+	font-weight: 200;
+}
+
+.righthead a:hover
+{
+	background-color:#5B5A5A;
+	color:white;
+	text-decoration:none;
+}
+
+.logout
+{
+	width: 40px;
+	position:relative;
+	top: -5px;
+}
+
+#menu-tool
+{
+	width:25px;
+	position:absolute;
+	left:10px;
+	top: 15px;
+}
